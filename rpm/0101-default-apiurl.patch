@@ -1,0 +1,13 @@
+diff --git a/osc/conf.py b/osc/conf.py
+index 07dfc0b9..783d89a7 100644
+--- a/osc/conf.py
++++ b/osc/conf.py
+@@ -483,7 +483,7 @@ class Options(OscOptions):
+     )  # type: ignore[assignment]
+ 
+     apiurl: str = Field(
+-        default="https://api.opensuse.org",
++        default="https://build.sailfishos.org",
+         description=textwrap.dedent(
+             """
+             Default URL to the API server.
